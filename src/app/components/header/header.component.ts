@@ -26,9 +26,9 @@ export class HeaderComponent {
       icon: 'po-icon-money',
     },
     {
-      label: 'Reports',
+      label: 'Gift',
       action: this.changeTitle.bind(this),
-      icon: 'po-icon-news',
+      icon: 'po-icon-gift',
     },
     {
       label: 'Settings',
