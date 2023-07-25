@@ -1,1 +1,10 @@
-<po-menu [p-menus]="[{ label: 'PO UI - Menu', link: '/' }]"></po-menu>
+<div class="po-wrapper-menu-panel">
+  <po-toolbar p-title="TOTVS - Moda"></po-toolbar>
+
+  <po-menu-panel
+    [p-menus]="menuItems"
+    p-logo="https://po-ui.io/assets/po-logos/po_color_bg.svg"
+  ></po-menu-panel>
+
+  <po-page-default [p-title]="title"></po-page-default>
+</div>
