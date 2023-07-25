@@ -7,12 +7,4 @@ import { PoMenuItem } from '@po-ui/ng-components';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  readonly menus: Array<PoMenuItem> = [
-    { label: 'Início', action: () => alert('Hello World') },
-  ];
-
-  private onClick() {
-    alert('Clicked in menu item');
-  }
-}
+export class AppComponent {}

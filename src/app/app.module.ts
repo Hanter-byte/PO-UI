@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { PoModule, PoDynamicModule } from '@po-ui/ng-components';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import { HeaderComponent } from './components/header/header.component';
+import { FormComponent } from './components/form/form.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HeaderComponent, FormComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
